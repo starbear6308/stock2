@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 // ====== 設定 ======
-const API_URL = ""; // ← 貼上你的 GAS Web App URL
+const API_URL = "https://script.google.com/macros/s/AKfycbwkasrHZ5hKYEHQtayNFeTMfCzGCTPkCPU7RcJyBNxOrP65ntuki3g3HIDbVNCJIEeXZQ/exec"; // ← 貼上你的 GAS Web App URL
 
 // ====== 工具函式 ======
 const fmt = (n) => (!n && n !== 0 ? "—" : Math.round(n).toLocaleString());
